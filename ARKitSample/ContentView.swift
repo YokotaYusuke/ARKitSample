@@ -10,11 +10,7 @@ struct ContentView : View {
 }
 
 struct ARViewContainer: UIViewRepresentable {
-    
-    func makeCoordinator() -> Coordinator {
-        return Coordinator()
-    }
-    
+        
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero)
         
@@ -40,25 +36,7 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
-    
-    class Coordinator: NSObject {
-        var view: ARView?
         
-        @objc
-        func handleLongPress(_ recognizer: UITapGestureRecognizer? = nil) {
-            guard let view = self.view else { return }
-            
-            let tapLocation = recognizer!.location(in: view)
-            
-            if let entity = view.entity(at: tapLocation) as? ModelEntity {
-                if let anchorEntity = entity.anchor {
-                    print("coordinatorが実行された")
-                    anchorEntity.removeFromParent()
-                }
-            }
-        }
-    }
-    
 }
 
 #Preview {
