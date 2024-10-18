@@ -21,7 +21,7 @@ struct ARViewContainer: UIViewRepresentable {
         
         do {
             let anchorEntity = AnchorEntity(plane: .any)
-            let modelEntity = try Entity.loadModel(named: "gyoza")
+            let modelEntity = try Entity.loadModel(named: "tenshinhan")
             
             modelEntity.generateCollisionShapes(recursive: true)
             anchorEntity.addChild(modelEntity)

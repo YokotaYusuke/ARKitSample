@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		8111588F2CC16A240080FD2A /* gyoza.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8111588E2CC16A240080FD2A /* gyoza.usdz */; };
+		81D9D1F12CC2884100FA8952 /* yakitori.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 81D9D1F02CC2884100FA8952 /* yakitori.usdz */; };
+		81D9D1F32CC2884A00FA8952 /* tenshinhan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 81D9D1F22CC2884A00FA8952 /* tenshinhan.usdz */; };
+		81D9D1F52CC2885100FA8952 /* sandwich.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 81D9D1F42CC2885100FA8952 /* sandwich.usdz */; };
+		81D9D1F72CC28AC300FA8952 /* sasamikatsu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 81D9D1F62CC28AC300FA8952 /* sasamikatsu.usdz */; };
 		81EA8A8B2CBEAD8700D3EB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA8A8A2CBEAD8700D3EB0E /* AppDelegate.swift */; };
 		81EA8A8D2CBEAD8700D3EB0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA8A8C2CBEAD8700D3EB0E /* ContentView.swift */; };
 		81EA8A8F2CBEAD8800D3EB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EA8A8E2CBEAD8800D3EB0E /* Assets.xcassets */; };
 		81EA8A922CBEAD8800D3EB0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EA8A912CBEAD8800D3EB0E /* Preview Assets.xcassets */; };
-		81EA8A992CBEAE6C00D3EB0E /* hhkb_studio.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 81EA8A982CBEAE6C00D3EB0E /* hhkb_studio.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8111588E2CC16A240080FD2A /* gyoza.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = gyoza.usdz; path = ../../../../Downloads/gyoza.usdz; sourceTree = "<group>"; };
+		81D9D1F02CC2884100FA8952 /* yakitori.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = yakitori.usdz; sourceTree = "<group>"; };
+		81D9D1F22CC2884A00FA8952 /* tenshinhan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tenshinhan.usdz; sourceTree = "<group>"; };
+		81D9D1F42CC2885100FA8952 /* sandwich.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sandwich.usdz; sourceTree = "<group>"; };
+		81D9D1F62CC28AC300FA8952 /* sasamikatsu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sasamikatsu.usdz; sourceTree = "<group>"; };
 		81EA8A872CBEAD8700D3EB0E /* ARKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EA8A8A2CBEAD8700D3EB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EA8A8C2CBEAD8700D3EB0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81EA8A8E2CBEAD8800D3EB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EA8A912CBEAD8800D3EB0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81EA8A982CBEAE6C00D3EB0E /* hhkb_studio.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = hhkb_studio.usdz; path = ../../../../Downloads/hhkb_studio.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,10 @@
 			children = (
 				81EA8A912CBEAD8800D3EB0E /* Preview Assets.xcassets */,
 				8111588E2CC16A240080FD2A /* gyoza.usdz */,
-				81EA8A982CBEAE6C00D3EB0E /* hhkb_studio.usdz */,
+				81D9D1F02CC2884100FA8952 /* yakitori.usdz */,
+				81D9D1F22CC2884A00FA8952 /* tenshinhan.usdz */,
+				81D9D1F42CC2885100FA8952 /* sandwich.usdz */,
+				81D9D1F62CC28AC300FA8952 /* sasamikatsu.usdz */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -131,10 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D9D1F52CC2885100FA8952 /* sandwich.usdz in Resources */,
+				81D9D1F12CC2884100FA8952 /* yakitori.usdz in Resources */,
+				81D9D1F72CC28AC300FA8952 /* sasamikatsu.usdz in Resources */,
+				81D9D1F32CC2884A00FA8952 /* tenshinhan.usdz in Resources */,
 				8111588F2CC16A240080FD2A /* gyoza.usdz in Resources */,
 				81EA8A922CBEAD8800D3EB0E /* Preview Assets.xcassets in Resources */,
 				81EA8A8F2CBEAD8800D3EB0E /* Assets.xcassets in Resources */,
-				81EA8A992CBEAE6C00D3EB0E /* hhkb_studio.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
